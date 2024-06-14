@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+.drop{
+    justify-content: center;
+    display: flex;
+    height: 200px;
+    align-items: center;
+    background-color: darkgray ;
+    margin: 0 6px;
+    padding: 4px;
+}
+
+.choose{
+    background-color: rgb(185, 183, 181);
+    margin-top: 3px;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 20px;
+    padding-left: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 70px;   
+}
+.drop > ul{
+   background-color: rgb(242, 248, 201);
+}
+
+.drop ul{
+    list-style: none;
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+    float: left;
+}
+
+.drop ul a{
+    color: rgb(29, 29, 30);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 32px;
+    padding: 0 15px;
+    display: block;
+}
+
+.drop ul li{
+    float: left;
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.drop ul li:hover{
+    background: lightcoral;
+}
+.drop ul ul{
+    position: absolute;
+    background: yellowgreen;
+    top: 100%;
+    left: 0%;
+   display: none;
+}
+.drop ul ul li{
+    float: none;
+    width: 200px;
+    border-left: 3px solid yellowgreen ;
+}
+
+.drop ul ul li:hover{
+    border-left: 3px solid blue;
+}
+.drop ul ul ul{
+    top: 0px;
+    left: 100%;
+
+}
+.drop ul li:hover > ul{
+    display: block;
+}
+
+.choose img{
+    width: 200px;
+      
+      border-radius: 20px;
+      margin-top: 20px;
+      height: 150px;
+      padding-left: 550px;
+}
+
